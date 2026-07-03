@@ -1,0 +1,28 @@
+# Project State — riposte-releases
+# Updated automatically at the end of each working session
+
+project: riposte-releases
+last_session: 2026-07-03
+phase: "v1.0.0 published — hosts only the Riposte companion service installer + privacy policy page, no source code"
+
+last_action: >
+  Created as a public GitHub repo specifically because GitHub Releases
+  requires a public repo, while the actual Riposte extension/service source
+  (lv-linkedin-reply-extension) stays private. Published release v1.0.0
+  (Install-Riposte.ps1, Uninstall-Riposte.ps1, PyInstaller-packaged
+  Riposte.exe zipped together). Enabled GitHub Pages (served from /docs) to
+  host the privacy policy at
+  https://rohit3537.github.io/riposte-releases/privacy.html for the Chrome
+  Web Store submission.
+
+next_steps:
+  - "Fill in the '[Rohit to add a contact email/method here]' placeholder on docs/privacy.html before the Chrome Web Store submission"
+  - "Publish a new release zip here (via scripts/build.bat + release/ scripts in lv-linkedin-reply-extension) whenever the service's SERVICE_VERSION bumps"
+
+blockers: []
+
+context: >
+  Companion repo to the private projects/letsviz/lv-linkedin-reply-extension
+  (Riposte). See that project's docs/sessions/2026-07-03.md for the full
+  public-distribution story — this repo's own job is narrow: host installer
+  downloads and the privacy policy page, nothing else.
