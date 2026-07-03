@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Riposte Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #1d2226; line-height: 1.6; }
+  h1 { color: #10B981; }
+  h2 { font-size: 18px; margin-top: 32px; }
+  code { background: #f2f4f7; padding: 1px 5px; border-radius: 4px; font-size: 90%; }
+  .updated { color: #667085; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<h1>Riposte Privacy Policy</h1>
+<p class="updated">Last updated: 2026-07-03</p>
+
+<p>Riposte is a Chrome extension that suggests AI-drafted replies for
+LinkedIn posts and comments, generated using your own Claude subscription.</p>
+
+<h2>What Riposte does with your data</h2>
+<ul>
+  <li>When you click into a LinkedIn comment box, Riposte reads the text of
+  the post (and the specific comment you're replying to, if applicable)
+  from the page you're already viewing.</li>
+  <li>That text is sent to a small companion application that you install
+  and run on your own computer (see
+  <a href="https://github.com/rohit3537/riposte-releases">riposte-releases</a>).</li>
+  <li>The companion app sends that text to Anthropic's Claude, authenticated
+  with your own personal Claude subscription login, to generate a reply
+  suggestion.</li>
+  <li>The suggestion is returned to the extension and shown to you. You
+  choose whether to insert it, edit it, or ignore it. Riposte never posts
+  anything on your behalf.</li>
+</ul>
+
+<h2>What never leaves your computer</h2>
+<p>Nothing you read or write through Riposte is sent to any server operated
+by the developer of this extension. The companion app runs entirely on your
+own machine; the only third party involved is Anthropic (via your own
+Claude account), which you already have a separate relationship and
+agreement with.</p>
+
+<h2>What's stored, and where</h2>
+<ul>
+  <li>A one-time pairing code is stored in your browser's local extension
+  storage (<code>chrome.storage.local</code>) so you don't have to
+  re-enter it. This never leaves your browser.</li>
+  <li>The companion app stores its own pairing code and a rotating log file
+  on your own computer, under <code>%LOCALAPPDATA%\Riposte</code>. Nothing
+  here is transmitted anywhere.</li>
+</ul>
+
+<h2>Data sale and sharing</h2>
+<p>Riposte does not sell, rent, or share any data with third parties. There
+is no analytics, tracking, or telemetry of any kind in this extension.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the update will be posted at this same URL with a
+new "Last updated" date.</p>
+
+<h2>Contact</h2>
+<p>[Rohit to add a contact email/method here before publishing.]</p>
+
+</body>
+</html>
